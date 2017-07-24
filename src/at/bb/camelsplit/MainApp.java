@@ -29,13 +29,13 @@ public class MainApp
 
 		// Now build a Businessobject which shhould be processed
 		Order pump_assembly = new Order()
-					.addItem(new BuyItem("GearMotor", "An electtromotor", 45))
-					.addItem(new MakeItem("PumpHousing-UpperPart", "Moulded steel housing", 4))
+					.addItem(new BuyItem("GearMotor", "An electromotor", 45))
+					.addItem(new MakeItem("PumpHousing-UpperPart", "Molded steel housing", 4))
 					.addItem(new MakeItem("Shaft", "40 mm steel shaft", 1))
 					.addItem(new BuyItem("RubberFeet", "Rubber feet to damp vibrations", 0.1))
 					.addItem(new BuyItem("RubberFeet", "Rubber feet to damp vibrations", 0.1))
 					.addItem(new BuyItem("Bearing", "Ring bearing", 0.75))
-					.addItem(new MakeItem("PumpHousing-LowerPart", "Moulded steel housing", 2));
+					.addItem(new MakeItem("PumpHousing-LowerPart", "Molded steel housing", 2));
 		
 		// OK, and now hand the order over to camel
 		ProducerTemplate template = context.createProducerTemplate();

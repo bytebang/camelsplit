@@ -22,10 +22,11 @@
     <info organisation="bytebang" module="camelsplit" status="integration"/>
 	
 	<dependencies>
-	
 		<!-- camel stuff -->
 		<dependency org="org.apache.camel"  name="camel-core"   rev="2.17.2"/>
 		<dependency org="org.apache.camel"  name="camel-stream"  rev="2.17.2"/>
+
+		<!-- logging -->
 		<dependency org="org.slf4j"   name="slf4j-simple"  rev="1.7.12"/>
     </dependencies>
 </ivy-module>
